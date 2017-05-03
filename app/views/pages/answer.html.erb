@@ -1,0 +1,20 @@
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 text-center">
+    <h1>Coach answer</h1>
+    <h2>Your question: </h2>
+    <%= @question.capitalize %>
+
+    <h2>The answer: </h2>
+    <%= @answer.capitalize %>
+    <br>
+    <br><div class="btn"> <%= link_to "Other question ?", "/ask" %></div>
+    </div>
+  </div>
+</div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
